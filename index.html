@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>★★★ LA GALERIE DE MEMES ★★★ (élu meilleur site 1999)</title>
+<meta name="description" content="La plus grande galerie de memes du web. Images, GIF et vidéos. Design horrible, contenu excellent.">
+<meta name="theme-color" content="#ff00aa">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23ff00aa'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle'%3E%F0%9F%98%82%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/chaos.css">
+</head>
+<body>
+
+<a class="eviter" href="#galerie">Aller directement aux memes (conseil : ne le faites pas)</a>
+
+<div class="bandeau-defilant" aria-hidden="true">
+  <div class="bandeau-piste">
+    <span>★ BIENVENUE SUR LE SITE OFFICIEL DES MEMES ★ MEILLEUR SITE DE L'ANNÉE 1999 ★ 100% SANS COOKIES (enfin presque) ★ ATTENTION : CE SITE CONTIENT DES MEMES ★ VOUS ÊTES LE 1 000 000e VISITEUR ★ NE FAITES PAS DÉFILER, C'EST DÉJÀ TROP TARD ★</span>
+    <span>★ BIENVENUE SUR LE SITE OFFICIEL DES MEMES ★ MEILLEUR SITE DE L'ANNÉE 1999 ★ 100% SANS COOKIES (enfin presque) ★ ATTENTION : CE SITE CONTIENT DES MEMES ★ VOUS ÊTES LE 1 000 000e VISITEUR ★ NE FAITES PAS DÉFILER, C'EST DÉJÀ TROP TARD ★</span>
+  </div>
+</div>
+
+<header class="entete" id="haut">
+  <p class="entete-sur">★ ★ ★ SITE N°1 DES MEMES DEPUIS 1999 ★ ★ ★</p>
+  <h1 class="wordart">
+    <svg class="wordart-svg" viewBox="0 0 1000 150" role="img" aria-label="La galerie de memes">
+      <defs>
+        <linearGradient id="wa-degrade" x1="0" y1="0" x2="1" y2="0" spreadMethod="repeat">
+          <stop offset="0" stop-color="#ff00aa"/>
+          <stop offset="0.125" stop-color="#ffe600"/>
+          <stop offset="0.25" stop-color="#00ff2a"/>
+          <stop offset="0.375" stop-color="#00f0ff"/>
+          <stop offset="0.5" stop-color="#ff00aa"/>
+          <animateTransform attributeName="gradientTransform" type="translate"
+            values="0 0; -0.5 0" dur="6s" repeatCount="indefinite"/>
+        </linearGradient>
+        <filter id="wa-ombre" x="-15%" y="-25%" width="130%" height="170%">
+          <feDropShadow dx="7" dy="7" stdDeviation="0" flood-color="#000000"/>
+        </filter>
+      </defs>
+      <text x="500" y="112" text-anchor="middle" textLength="950" lengthAdjust="spacingAndGlyphs"
+            font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', 'Arial Black', sans-serif"
+            font-size="120" fill="url(#wa-degrade)" stroke="#000000" stroke-width="7"
+            paint-order="stroke" filter="url(#wa-ombre)">LA GALERIE DE MEMES</text>
+    </svg>
+  </h1>
+  <p class="sous-titre">
+    <span class="clignote">NOUVEAU !</span>
+    Le seul site de memes <em>certifié 100 % artisanal</em>, sans algorithme, sans goût, sans excuses.
+    <span class="clignote">★</span>
+  </p>
+
+  <nav class="nav" aria-label="Navigation principale">
+    <a href="#haut" class="nav-lien nav-1">ACCUEIL</a>
+    <a href="#galerie" class="nav-lien nav-2" data-type="all">TOUS LES MEMES</a>
+    <a href="#galerie" class="nav-lien nav-3" data-type="image">LES IMAGES</a>
+    <a href="#galerie" class="nav-lien nav-4" data-type="gif">LES GIFS</a>
+    <a href="#galerie" class="nav-lien nav-5" data-type="video">LES VIDÉOS</a>
+    <a href="#galerie" class="nav-lien nav-6" data-fav="1">MES PRÉFÉRÉS <span class="badge-rond" id="favcount-nav">0</span></a>
+    <a href="#ajouter" class="nav-lien nav-7">AJOUTER UN MEME</a>
+    <a href="#livre-or" class="nav-lien nav-8">LIVRE D'OR</a>
+    <a href="#bas" class="nav-lien nav-9">CONTACT</a>
+  </nav>
+</header>
+
+<div class="corps">
+
+  <aside class="rail rail-gauche" aria-label="Publicités et options">
+    <div class="pub pub-1">
+      <p class="pub-titre clignote">!!! ARGENT FACILE !!!</p>
+      <p class="pub-texte">Gagne <strong>3 000 € par jour</strong> en regardant des memes. Offre limitée à 3 places (sur 12 000).</p>
+      <button class="bouton bouton-hurlant" type="button" data-arnaque>CLIQUEZ ICI</button>
+      <p class="pub-mentions">* arnaque</p>
+    </div>
+
+    <div class="pub pub-2">
+      <p class="pub-titre">MODE ENFER</p>
+      <p class="pub-texte">Ajoute encore plus de bordel. Traînée de curseur, tremblements, clignotements. Tu ne pourras plus revenir.</p>
+      <button class="bouton bouton-enfer" id="enfer" type="button" aria-pressed="false">ACTIVER L'ENFER</button>
+    </div>
+
+    <div class="pub pub-3">
+      <p class="pub-titre">TOP 5 DES MEMES</p>
+      <ol class="top5" id="top5">
+        <li>chargement…</li>
+      </ol>
+      <p class="pub-mentions">classement totalement inventé</p>
+    </div>
+
+    <div class="pub pub-4">
+      <p class="pub-titre clignote">SITE OPTIMISÉ</p>
+      <p class="badge-800">BEST VIEWED IN<br>800 × 600</p>
+      <p class="pub-texte petit">Ne marche pas sur Internet Explorer 6. Ni sur les autres navigateurs, en fait.</p>
+    </div>
+  </aside>
+
+  <main id="galerie" class="principal">
+    <h2 class="titre-section">LE MUR DES MEMES</h2>
+
+    <section class="controles" aria-label="Filtres et recherche">
+      <div class="controle controle-recherche">
+        <label for="recherche">RECHERCHER (ça marche, promis)</label>
+        <input id="recherche" type="search" placeholder="ex : chatgpt, css, bug…" autocomplete="off">
+      </div>
+
+      <div class="controle">
+        <span class="etiquette-controle">TYPE DE DÉCHET :</span>
+        <div class="groupe-boutons" role="group" aria-label="Filtrer par type">
+          <button class="bouton filtre actif" type="button" data-type="all" aria-pressed="true">TOUT</button>
+          <button class="bouton filtre" type="button" data-type="image" aria-pressed="false">IMAGE</button>
+          <button class="bouton filtre" type="button" data-type="gif" aria-pressed="false">GIF</button>
+          <button class="bouton filtre" type="button" data-type="video" aria-pressed="false">VIDÉO</button>
+        </div>
+      </div>
+
+      <div class="controle">
+        <label for="tri">TRIER PAR :</label>
+        <select id="tri">
+          <option value="chaos">BORDEL ABSOLU (par défaut)</option>
+          <option value="recent">LES PLUS RÉCENTS</option>
+          <option value="az">TITRE A → Z</option>
+          <option value="za">TITRE Z → A</option>
+          <option value="vues">LES PLUS REGARDÉS</option>
+          <option value="lourd">LES PLUS LOURDS</option>
+        </select>
+      </div>
+
+      <div class="controle controle-actions">
+        <button class="bouton bouton-fav" id="fav-filter" type="button" aria-pressed="false">★ MES PRÉFÉRÉS (<span id="favcount">0</span>)</button>
+        <button class="bouton bouton-random" id="random" type="button">🎲 MEME AU HASARD</button>
+        <button class="bouton bouton-reset" id="reset" type="button">TOUT EFFACER</button>
+      </div>
+    </section>
+
+    <p class="statut" id="statut" role="status" aria-live="polite">Chargement du bordel…</p>
+
+    <div class="grille" id="grille"></div>
+
+    <p class="vide" id="vide" hidden>
+      <strong>RIEN.</strong> Aucun meme ne correspond. C'est peut-être mieux comme ça.
+      <button class="bouton" type="button" id="vide-reset">RÉINITIALISER LES FILTRES</button>
+    </p>
+
+    <p class="centre">
+      <button class="bouton bouton-plus" id="plus" type="button" hidden>AFFICHER PLUS DE BORDEL ↓</button>
+    </p>
+
+    <p class="note-technique">
+      Astuce de pro : <kbd>←</kbd> <kbd>→</kbd> pour naviguer dans la visionneuse, <kbd>Échap</kbd> pour fuir.
+      Chaque meme a un lien direct : <code>#meme=identifiant</code>.
+    </p>
+  </main>
+
+  <aside class="rail rail-droite" aria-label="Informations inutiles">
+    <div class="widget widget-compteur">
+      <p class="widget-titre">COMPTEUR DE VISITES</p>
+      <p class="compteur" id="compteur" aria-label="compteur de visites">0000000</p>
+      <p class="pub-mentions">compteur authentique à 100 %</p>
+    </div>
+
+    <div class="widget widget-jour">
+      <p class="widget-titre">LE MEME DU JOUR</p>
+      <div id="meme-jour">…</div>
+    </div>
+
+    <div class="widget widget-citation">
+      <p class="widget-titre">CITATION DU JOUR</p>
+      <blockquote id="citation">« … »</blockquote>
+    </div>
+
+    <div class="widget widget-amis">
+      <p class="widget-titre">NOS SITES AMIS</p>
+      <ul class="amis">
+        <li><a href="#bas">Le coin des pixels</a></li>
+        <li><a href="#bas">Télécharger plus de RAM</a></li>
+        <li><a href="#bas">Le webring des memes</a></li>
+        <li><a href="#bas">Mon blog (abandonné en 2004)</a></li>
+      </ul>
+      <p class="webring">[ ← prev | <strong>webring des memes</strong> | next → ]</p>
+    </div>
+  </aside>
+</div>
+
+<section class="bloc bloc-ajout" id="ajouter">
+  <h2 class="titre-section">AJOUTER UN MEME À LA GALERIE</h2>
+  <p class="bloc-intro">
+    Déposez une image, un GIF ou une vidéo. Ça part directement dans <code>media/images/</code> ou
+    <code>media/videos/</code> et <code>media.json</code> est régénéré. Magie (locale).
+  </p>
+
+  <form id="upload-form" class="formulaire-ajout" novalidate>
+    <label class="etiquette-fichier" for="upload-file">
+      <span class="fleche">⬆</span> CHOISIR UN FICHIER (max 200 Mo)
+    </label>
+    <input id="upload-file" type="file" accept="image/*,video/*,.gif,.webp,.avif">
+    <p class="nom-fichier" id="upload-name">aucun fichier sélectionné</p>
+    <button class="bouton bouton-hurlant" id="upload-submit" type="submit" disabled>ENVOYER DANS LE BORDEL</button>
+    <div class="barre-progres" aria-hidden="true"><div class="barre-progres-remplissage" id="upload-bar"></div></div>
+    <p class="message" id="upload-msg" role="status"></p>
+  </form>
+
+  <p class="note-technique">
+    L'envoi ne fonctionne qu'avec le serveur local (<code>npm start</code>). Sur GitHub Pages, c'est un site
+    statique : déposez vos fichiers dans <code>media/images/</code> ou <code>media/videos/</code>, puis lancez
+    <code>npm run index</code> et poussez. Oui, c'est manuel. C'est voulu. Enfin, presque.
+  </p>
+</section>
+
+<section class="bloc bloc-livre" id="livre-or">
+  <h2 class="titre-section">LIVRE D'OR (stocké dans votre navigateur, comme en 1999)</h2>
+
+  <form id="livre-form" class="formulaire-livre" novalidate>
+    <label for="livre-nom">VOTRE PSEUDO</label>
+    <input id="livre-nom" type="text" maxlength="24" placeholder="xX_darkSasuke_Xx" autocomplete="nickname" required>
+
+    <label for="livre-message">VOTRE MESSAGE (soyez méchant)</label>
+    <textarea id="livre-message" rows="3" maxlength="280" placeholder="ce site est une honte, j'adore" required></textarea>
+
+    <button class="bouton" type="submit">SIGNER LE LIVRE D'OR</button>
+    <p class="message" id="livre-msg" role="status"></p>
+  </form>
+
+  <ul class="livre-liste" id="livre-liste"></ul>
+  <p class="centre"><button class="bouton bouton-reset" type="button" id="livre-vider">EFFACER TOUT LE LIVRE D'OR (lâche)</button></p>
+</section>
+
+<footer class="pied" id="bas">
+  <div class="pied-colonnes">
+    <div>
+      <p class="pied-titre">NEWSLETTER</p>
+      <p class="petit">Une fois par jour. Parfois deux. Souvent jamais.</p>
+      <form id="newsletter-form" class="formulaire-newsletter" novalidate>
+        <label for="newsletter-email" class="sr-only">Votre email</label>
+        <input id="newsletter-email" type="email" placeholder="vous@exemple.fr" autocomplete="email" required>
+        <button class="bouton" type="submit">OK</button>
+      </form>
+      <p class="message" id="newsletter-msg" role="status"></p>
+    </div>
+
+    <div>
+      <p class="pied-titre">BADGES DE QUALITÉ</p>
+      <div class="badges">
+        <span class="badge">NETSCAPE NOW!</span>
+        <span class="badge">HTML 3.2 VALID</span>
+        <span class="badge badge-clignote">ANTI-ALGORITHME</span>
+        <span class="badge">MADE ON A VPS</span>
+      </div>
+    </div>
+
+    <div>
+      <p class="pied-titre">INFOS LÉGALES</p>
+      <p class="petit">
+        © 1999–2026 Galerie de Memes SARL (auto-entrepreneur). Tous droits réservés, surtout les mauvais.
+        Aucun meme n'a été maltraité. Les cookies sont cuits.
+      </p>
+      <p class="petit">Dernière mise à jour : <span id="maj">hier</span> · <span id="horloge">--:--:--</span></p>
+    </div>
+  </div>
+
+  <p class="pied-bas">
+    Fait avec ❤️, du CSS de 1998 et beaucoup de mauvais goût.
+    <a href="#haut">Remonter en haut</a> (bon courage).
+  </p>
+</footer>
+
+<!-- Popup publicitaire -->
+<div class="popup" id="popup" hidden role="dialog" aria-modal="false" aria-labelledby="popup-titre">
+  <p class="popup-titre" id="popup-titre">🎉 FÉLICITATIONS 🎉</p>
+  <p class="popup-texte">
+    Vous êtes notre <strong>1 000 000<sup>e</sup> visiteur</strong> ! Vous avez gagné un
+    <strong>iPhone 47 Pro Max Ultra</strong> (édition meme) et 3 kg de pixels.
+  </p>
+  <div class="popup-actions">
+    <button class="bouton bouton-hurlant" type="button" id="popup-ok">JE LE VEUX TOUT DE SUITE</button>
+    <button class="popup-non" type="button" id="popup-fermer">non merci, je n'aime pas les cadeaux</button>
+  </div>
+</div>
+
+<!-- Visionneuse -->
+<div class="visionneuse" id="visionneuse" hidden role="dialog" aria-modal="true" aria-labelledby="lb-titre">
+  <div class="lb-boite">
+    <button class="lb-fermer" id="lb-fermer" type="button" aria-label="Fermer la visionneuse">✕ FERMER (Échap)</button>
+    <h2 class="lb-titre" id="lb-titre">…</h2>
+    <div class="lb-media" id="lb-media"></div>
+    <p class="lb-meta" id="lb-meta"></p>
+    <div class="lb-actions">
+      <button class="bouton" id="lb-prev" type="button">← PRÉCÉDENT</button>
+      <button class="bouton bouton-fav" id="lb-fav" type="button">☆ FAVORI</button>
+      <a class="bouton" id="lb-dl" href="#" download>TÉLÉCHARGER</a>
+      <button class="bouton" id="lb-copier" type="button">COPIER LE LIEN</button>
+      <button class="bouton" id="lb-next" type="button">SUIVANT →</button>
+    </div>
+    <p class="message" id="lb-msg" role="status"></p>
+  </div>
+</div>
+
+<script type="module" src="js/app.js"></script>
+<script type="module" src="js/chaos.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "quand-le-code-marche.jpg": {
+    "title": "Quand le code marche du premier coup",
+    "tags": ["dev", "suspect"]
+  },
+  "css-en-2026.png": {
+    "title": "Mon CSS en 2026",
+    "tags": ["css", "design", "chaos"]
+  },
+  "lundi-matin.jpg": {
+    "title": "Lundi matin, moi",
+    "tags": ["boulot", "lundi"]
+  },
+  "ca-marche-en-local.jpg": {
+    "title": "Ça marche en local",
+    "tags": ["prod", "bug", "classique"]
+  },
+  "chatgpt-ma-dit.jpg": {
+    "title": "ChatGPT m'a dit que c'était bon",
+    "tags": ["ia", "prod", "confiance"]
+  },
+  "commit-final.png": {
+    "title": "Commit final",
+    "tags": ["git", "mensonge"]
+  },
+  "reunion-mail.jpg": {
+    "title": "Cette réunion aurait pu être un mail",
+    "tags": ["boulot", "reunion"]
+  },
+  "nobody-cares.webp": {
+    "title": "Personne ne lit le README",
+    "tags": ["dev", "vérité"]
+  },
+  "gif-quand-le-build-passe.gif": {
+    "title": "Quand le build passe",
+    "tags": ["ci", "joie"]
+  },
+  "gif-chargement-1998.gif": {
+    "title": "Chargement… (1998)",
+    "tags": ["1998", "nostalgie"]
+  },
+  "demo-qui-bug.mp4": {
+    "title": "Démo qui bug en live",
+    "tags": ["demo", "honte"]
+  },
+  "rickroll-maison.mp4": {
+    "title": "Rickroll maison (sans son)",
+    "tags": ["musique", "arnaque"]
+  }
+}

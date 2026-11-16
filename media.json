@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-11-16T02:53:04.691Z",
+  "count": 12,
+  "images": 10,
+  "videos": 2,
+  "gifs": 2,
+  "items": [
+    {
+      "file": "ca-marche-en-local.jpg",
+      "type": "image",
+      "gif": false,
+      "ext": "jpg",
+      "src": "media/images/ca-marche-en-local.jpg",
+      "bytes": 76538,
+      "mtime": 1794796776516,
+      "width": 700,
+      "height": 520,
+      "duration": null,
+      "poster": null,
+      "title": "Ça marche en local",
+      "tags": [
+        "prod",
+        "bug",
+        "classique"
+      ],
+      "mime": "image/jpeg",
+      "playable": true,
+      "id": "ca-marche-en-local"
+    },
+    {
+      "file": "reunion-mail.jpg",
+      "type": "image",
+      "gif": false,
+      "ext": "jpg",
+      "src": "media/images/reunion-mail.jpg",
+      "bytes": 83093,
+      "mtime": 1794796776753,
+      "width": 680,
+      "height": 560,
+      "duration": null,
+      "poster": null,
+      "title": "Cette réunion aurait pu être un mail",
+      "tags": [
+        "boulot",
+        "reunion"
+      ],
+      "mime": "image/jpeg",
+      "playable": true,
+      "id": "reunion-mail"
+    },
+    {
+      "file": "gif-chargement-1998.gif",
+      "type": "image",
+      "gif": true,
+      "ext": "gif",
+      "src": "media/images/gif-chargement-1998.gif",
+      "bytes": 256417,
+      "mtime": 1794796777916,
+      "width": 480,
+      "height": 360,
+      "duration": null,
+      "poster": "media/images/gif-chargement-1998.poster.jpg",
+      "title": "Chargement… (1998)",
+      "tags": [
+        "1998",
+        "nostalgie"
+      ],
+      "mime": "image/gif",
+      "playable": true,
+      "id": "gif-chargement-1998"
+    },
+    {
+      "file": "chatgpt-ma-dit.jpg",
+      "type": "image",
+      "gif": false,
+      "ext": "jpg",
+      "src": "media/images/chatgpt-ma-dit.jpg",
+      "bytes": 93903,
+      "mtime": 1794796776584,
+      "width": 640,
+      "height": 640,
+      "duration": null,
+      "poster": null,
+      "title": "ChatGPT m'a dit que c'était bon",
+      "tags": [
+        "ia",
+        "prod",
+        "confiance"
+      ],
+      "mime": "image/jpeg",
+      "playable": true,
+      "id": "chatgpt-ma-dit"
+    },
+    {
+      "file": "commit-final.png",
+      "type": "image",
+      "gif": false,
+      "ext": "png",
+      "src": "media/images/commit-final.png",
+      "bytes": 205717,
+      "mtime": 1794796776692,
+      "width": 620,
+      "height": 620,
+      "duration": null,
+      "poster": null,
+      "title": "Commit final",
+      "tags": [
+        "git",
+        "mensonge"
+      ],
+      "mime": "image/png",
+      "playable": true,
+      "id": "commit-final"
+    },
+    {
+      "file": "lundi-matin.jpg",
+      "type": "image",
+      "gif": false,
+      "ext": "jpg",
+      "src": "media/images/lundi-matin.jpg",
+      "bytes": 66622,
+      "mtime": 1794796776435,
+      "width": 640,
+      "height": 560,
+      "duration": null,
+      "poster": null,
+      "title": "Lundi matin, moi",
+      "tags": [
+        "boulot",
+        "lundi"
+      ],
+      "mime": "image/jpeg",
+      "playable": true,
+      "id": "lundi-matin"
+    },
+    {
+      "file": "css-en-2026.png",
+      "type": "image",
+      "gif": false,
+      "ext": "png",
+      "src": "media/images/css-en-2026.png",
+      "bytes": 219451,
+      "mtime": 1794796776381,
+      "width": 600,
+      "height": 700,
+      "duration": null,
+      "poster": null,
+      "title": "Mon CSS en 2026",
+      "tags": [
+        "css",
+        "design",
+        "chaos"
+      ],
+      "mime": "image/png",
+      "playable": true,
+      "id": "css-en-2026"
+    },
+    {
+      "file": "nobody-cares.webp",
+      "type": "image",
+      "gif": false,
+      "ext": "webp",
+      "src": "media/images/nobody-cares.webp",
+      "bytes": 53050,
+      "mtime": 1794796776906,
+      "width": 640,
+      "height": 620,
+      "duration": null,
+      "poster": null,
+      "title": "Personne ne lit le README",
+      "tags": [
+        "dev",
+        "vérité"
+      ],
+      "mime": "image/webp",
+      "playable": true,
+      "id": "nobody-cares"
+    },
+    {
+      "file": "gif-quand-le-build-passe.gif",
+      "type": "image",
+      "gif": true,
+      "ext": "gif",
+      "src": "media/images/gif-quand-le-build-passe.gif",
+      "bytes": 363802,
+      "mtime": 1794796777473,
+      "width": 480,
+      "height": 360,
+      "duration": null,
+      "poster": "media/images/gif-quand-le-build-passe.poster.jpg",
+      "title": "Quand le build passe",
+      "tags": [
+        "ci",
+        "joie"
+      ],
+      "mime": "image/gif",
+      "playable": true,
+      "id": "gif-quand-le-build-passe"
+    },
+    {
+      "file": "quand-le-code-marche.jpg",
+      "type": "image",
+      "gif": false,
+      "ext": "jpg",
+      "src": "media/images/quand-le-code-marche.jpg",
+      "bytes": 100406,
+      "mtime": 1794796776276,
+      "width": 640,
+      "height": 640,
+      "duration": null,
+      "poster": null,
+      "title": "Quand le code marche du premier coup",
+      "tags": [
+        "dev",
+        "suspect"
+      ],
+      "mime": "image/jpeg",
+      "playable": true,
+      "id": "quand-le-code-marche"
+    },
+    {
+      "file": "demo-qui-bug.mp4",
+      "type": "video",
+      "gif": false,
+      "ext": "mp4",
+      "src": "media/videos/demo-qui-bug.mp4",
+      "bytes": 9969,
+      "mtime": 1794796778071,
+      "width": 640,
+      "height": 360,
+      "duration": 4,
+      "poster": "media/videos/demo-qui-bug.poster.jpg",
+      "title": "Démo qui bug en live",
+      "tags": [
+        "demo",
+        "honte"
+      ],
+      "mime": "video/mp4",
+      "playable": true,
+      "id": "demo-qui-bug"
+    },
+    {
+      "file": "rickroll-maison.mp4",
+      "type": "video",
+      "gif": false,
+      "ext": "mp4",
+      "src": "media/videos/rickroll-maison.mp4",
+      "bytes": 12709,
+      "mtime": 1794796778235,
+      "width": 640,
+      "height": 360,
+      "duration": 3,
+      "poster": "media/videos/rickroll-maison.poster.jpg",
+      "title": "Rickroll maison (sans son)",
+      "tags": [
+        "musique",
+        "arnaque"
+      ],
+      "mime": "video/mp4",
+      "playable": true,
+      "id": "rickroll-maison"
+    }
+  ]
+}
